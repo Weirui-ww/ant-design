@@ -20,7 +20,7 @@ const App: React.FC = () => (
     mode="tags"
     style={{ width: '100%' }}
     onChange={handleChange}
-    tokenSeparators={[',']}
+    tokenSeparators={[',',' ',';']}
     options={options}
   />
 );
